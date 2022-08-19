@@ -12,7 +12,7 @@ form_ele.addEventListener('submit',(e)=>{
     console.log(data);
 })
 
-//To controll the theme of the form
+//To control the theme of the form
 var body = document.querySelector('body')
 var themeFlag= true;
 function change(){
