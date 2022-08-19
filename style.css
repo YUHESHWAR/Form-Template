@@ -1,0 +1,118 @@
+.format{
+    padding: 20px;
+    width: 700px;
+}
+span{
+    font-size: 12px;
+}
+b {
+    font-family: system-ui;
+}
+input[name="fname"],input[name="lname"]{
+    font-size: 15px;
+}
+.spacing-lname{
+    margin-left: 190px;
+}
+.required{
+    font-size: 15px;
+    color: red;
+}
+#email{
+    font-size: 15px;
+    width: 400px;
+}
+.rate {
+    float: left;
+    height: 1px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+input[name="purchase" ]{
+    margin-left: 100px;
+}
+input[name="service"]{
+    margin-left: 100px;
+}
+#Very_Unsatisfied{
+    margin-left: 109px;
+}
+input[name="companyOverall"]{
+    margin-left: 100px;
+} 
+#Very-Unsatisfied{
+    margin-left: 43px;
+}
+.children{
+    padding: 8px;
+}
+
+.children:nth-of-type(odd){
+    border-radius: 8px;
+    background-color: rgb(142, 138, 138);
+}
+.label-width{
+    display: inline-block;
+    margin: 0px;
+    width: 150px;
+}
+input[name="buyAgain"],input[name="recomendProducts"],input[name="recomendCompanies"]{
+    margin-left: 100px;
+} 
+#Very_Unlikely{
+    margin-left: 0px;
+}
+textarea{
+    font-size: 16px;
+    height: 100px;
+    width: 700px;
+    border-radius: 10px;
+}
+.submit_button{
+    padding: 5px;
+    height: 30px;
+    width: 60px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(112, 208, 91);
+}
+.theme{
+    background-color: rgb(55, 54, 57);
+    color: rgb(255, 255, 255);
+}
+.theme_button{
+    padding: 5px;
+    height: 30px;
+    width: 60px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(128, 61, 216);
+}

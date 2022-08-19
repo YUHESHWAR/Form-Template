@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+</head>
+<body class="theme">
+    <form class="format">
+        <label for="name"><b>Name</b></label>
+        <span class="required">*</span><br>
+        <input type="text" id="name" name="fname" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="name" name="lname" required><br>
+        <span>First</span>
+        <span class="spacing-lname">Last</span><br><br>
+        <label for="email"><b>Email</b></label>
+        <span class="required">*</span><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="rate"><b>Your Experience</b></label>
+        <span class="required">*</span><br>
+        <div class="rate">
+            <input type="radio" id="star5" name="rating" value="5" required>
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rating" value="4" >
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rating" value="3" >
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rating" value="2" >
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rating" value="1" >
+            <label for="star1" title="text">1 star</label>
+        </div><br><br>
+        <span>Overall how would you rate your experience with us?</span><br><br>
+       <b>How satisfied are you with</b>
+       <span class="required">*</span><br>
+       <pre>               Very Unsatisfied   Unsatisfied         Neutral        Satisfied     Very Satisfied</pre>
+        <div>
+            <div class="children">
+                <label for="purchase">Purchase</label>
+                <input type="radio" name="purchase" id="Very Unsatisfied" value="Very Unsatisfied" required>
+                <input type="radio" name="purchase" id="Unsatisfied" value="Unsatisfied">
+                <input type="radio" name="purchase" id="Neutral" value="Neutral">
+                <input type="radio" name="purchase" id="Satisfied" value="Satisfied">
+                <input type="radio" name="purchase" id="Very_Satisfied" value="Very Satisfied">
+            </div>
+            <div class="children">
+                <label for="service">Service</label>
+                <input type="radio" name="service" id="Very_Unsatisfied" value="Very Unsatisfied" required>
+                <input type="radio" name="service" id="Unsatisfied" value="Unsatisfied">
+                <input type="radio" name="service" id="Neutral" value="Neutral">
+                <input type="radio" name="service" id="Satisfied" value="Satisfied">
+                <input type="radio" name="service" id="Very_Satisfied" value="Very Satisfied">
+            </div>
+            <div class="children">
+                <label for="companyOverall">Company Overall</label>
+                <input type="radio" name="companyOverall" id="Very-Unsatisfied" value="Very Unsatisfied" required>
+                <input type="radio" name="companyOverall" id="Unsatisfied" value="Unsatisfied">
+                <input type="radio" name="companyOverall" id="Neutral" value="Neutral">
+                <input type="radio" name="companyOverall" id="Satisfied" value="Satisfied">
+                <input type="radio" name="companyOverall" id="Very_Satisfied" value="Very Satisfied">
+            </div>
+        </div><br>
+        <b>How likely are you to</b>
+       <span class="required">*</span><br>
+       <pre>                   Very Unlikely      Unlikely         Neutral          Likely        Very Likely</pre>
+        <div>
+            <div class="children">
+                <label for="buyAgain"><p class="label-width">Buy from us again</p></label>
+                <input type="radio" name="buyAgain" id="Very_Unlikely" value="Very Unlikely" required>
+                <input type="radio" name="buyAgain" id="Unlikely" value="Unlikely">
+                <input type="radio" name="buyAgain" id="Neutral" value="Neutral">
+                <input type="radio" name="buyAgain" id="Likely" value="Likely">
+                <input type="radio" name="buyAgain" id="Very_Likely" value="Very Likely">
+            </div>
+            <div class="children">
+                <label for="recomendProducts"><p class="label-width">Recomend our products to others</p></label>
+                <input type="radio" name="recomendProducts" id="Very_Unlikely" value="Very Unlikely" required>
+                <input type="radio" name="recomendProducts" id="Unlikely" value="Unlikely">
+                <input type="radio" name="recomendProducts" id="Neutral" value="Neutral">
+                <input type="radio" name="recomendProducts" id="Likely" value="Likely">
+                <input type="radio" name="recomendProducts" id="Very_Likely" value="Very Likely">
+            </div>
+            <div class="children">
+                <label for="recomendCompanies"><p class="label-width">Recomend our companies to others</p></label>
+                <input type="radio" name="recomendCompanies" id="Very_Unlikely" value="Very Unlikely" required>
+                <input type="radio" name="recomendCompanies" id="Unlikely" value="Unlikely">
+                <input type="radio" name="recomendCompanies" id="Neutral" value="Neutral">
+                <input type="radio" name="recomendCompanies" id="Likely" value="Likely">
+                <input type="radio" name="recomendCompanies" id="Very_Likely" value="Very Likely">
+            </div>
+        </div><br>
+        <b>Additional comments or suggestions</b><br>
+        <textarea name="Comments" cols="30" rows="10" ></textarea><br><br>
+        <button type="submit" class="submit_button">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button onclick=change() class="theme_button">Theme</button><br><br>
+        <hr><br>
+        <div style="text-align:center ;">
+        <span class="required">*</span>
+        <span class="required">*</span>
+        <span>The response  is displayed in a JSON in the console</span>
+        <span class="required">*</span>
+        <span class="required">*</span>
+        </div>
+    </form>
+</body>
+</html>
