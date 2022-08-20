@@ -14,7 +14,7 @@ form_ele.addEventListener('submit',(e)=>{
 
 //To control the theme of the form
 var body = document.querySelector('body')
-var themeFlag= true;
+var themeFlag= false;
 function change(){
     if(themeFlag){
         body.classList.replace('theme','white');
