@@ -61,10 +61,7 @@ input[name="purchase" ],input[name="service"],input[name="companyOverall"]{
 }
 
 #Very_Unsatisfied{
-    margin-left: 15.5%;
-}
-#Very-Unsatisfied{
-    margin-left: 5.8%;
+    margin-left: 2%;
 }
 .children{
     padding: 8px;
