@@ -12,7 +12,7 @@ input[name="fname"],input[name="lname"]{
     font-size: 15px;
 }
 .spacing-lname{
-    margin-left: 190px;
+    margin-left: 28%;
 }
 .required{
     font-size: 15px;
@@ -20,7 +20,7 @@ input[name="fname"],input[name="lname"]{
 }
 #email{
     font-size: 15px;
-    width: 400px;
+    width: 57%;
 }
 .rate {
     float: left;
@@ -57,17 +57,19 @@ input[name="fname"],input[name="lname"]{
     color: #c59b08;
 }
 input[name="purchase" ],input[name="service"],input[name="companyOverall"]{
-    margin-left: 90px;
+    margin-left: 14%;
 }
+
 #Very_Unsatisfied{
-    margin-left: 99px;
+    margin-left: 15.5%;
 }
 #Very-Unsatisfied{
-    margin-left: 33px;
+    margin-left: 5.8%;
 }
 .children{
     padding: 8px;
 }
+
 .children:nth-of-type(odd){
     border-radius: 8px;
     background-color: rgb(142, 138, 138);
@@ -75,13 +77,13 @@ input[name="purchase" ],input[name="service"],input[name="companyOverall"]{
 .label-width{
     display: inline-block;
     margin: 0px;
-    width: 150px;
+    width: 140px;
 }
 input[name="buyAgain"],input[name="recomendProducts"],input[name="recomendCompanies"]{
-    margin-left: 90px;
+    margin-left: 14%;
 } 
 #Very_Unlikely{
-    margin-left: 0px;
+    margin-left: 2%;
 }
 textarea{
     font-size: 16px;
