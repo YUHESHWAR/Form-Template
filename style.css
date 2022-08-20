@@ -1,6 +1,6 @@
 .format{
     padding: 20px;
-    width: 700px;
+    width: 680px;
 }
 span{
     font-size: 12px;
@@ -56,25 +56,18 @@ input[name="fname"],input[name="lname"]{
 .rate > label:hover ~ input:checked ~ label {
     color: #c59b08;
 }
-input[name="purchase" ]{
-    margin-left: 100px;
-}
-input[name="service"]{
-    margin-left: 100px;
+input[name="purchase" ],input[name="service"],input[name="companyOverall"]{
+    margin-left: 90px;
 }
 #Very_Unsatisfied{
-    margin-left: 109px;
+    margin-left: 99px;
 }
-input[name="companyOverall"]{
-    margin-left: 100px;
-} 
 #Very-Unsatisfied{
-    margin-left: 43px;
+    margin-left: 33px;
 }
 .children{
     padding: 8px;
 }
-
 .children:nth-of-type(odd){
     border-radius: 8px;
     background-color: rgb(142, 138, 138);
@@ -85,7 +78,7 @@ input[name="companyOverall"]{
     width: 150px;
 }
 input[name="buyAgain"],input[name="recomendProducts"],input[name="recomendCompanies"]{
-    margin-left: 100px;
+    margin-left: 90px;
 } 
 #Very_Unlikely{
     margin-left: 0px;
@@ -93,7 +86,7 @@ input[name="buyAgain"],input[name="recomendProducts"],input[name="recomendCompan
 textarea{
     font-size: 16px;
     height: 100px;
-    width: 700px;
+    width: 680px;
     border-radius: 10px;
 }
 .submit_button{
